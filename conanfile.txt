@@ -1,0 +1,14 @@
+[requires]
+opencv/4.5.5
+cryptopp/8.6.0 
+
+[options]
+opencv/4.5.5:shared=True          # 使用动态链接库
+opencv/4.5.5:dnn=True              # 启用深度学习模块
+opencv/4.5.5:highgui=True          # 启用高GUI模块
+opencv/4.5.5:imgproc=True          # 启用图像处理模块
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
